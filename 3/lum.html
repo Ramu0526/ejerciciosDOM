@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario Interactivo</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Diccionario Interactivo</h1>
+        
+        <input type="text" id="wordInput" placeholder="Palabra...">
+        <input type="text" id="definitionInput" placeholder="Definición...">
+        <button id="addButton">Añadir</button>
+        <br>
+        <br>
+        <input type="text" id="searchInput" placeholder="Buscar...">
+        <button id="searchButton">Buscar</button>
+        <br>
+        <br>
+        <button id="backButton">Volver</button>
+        
+        <div id="resultContainer"></div>
+        
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Palabra</th>
+                    <th>Definición</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="scriptt.js"></script>
+</body>
+</html>
